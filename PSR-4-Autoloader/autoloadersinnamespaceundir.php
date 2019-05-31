@@ -9,11 +9,11 @@
     $base_dir = __DIR__ . '/Class/';
         
     //Reconstruye el path donde se encuentra el archivo php que corresponde a la clase que se le pasa a la funcion
-    $file = $base_dir . $class . '.php';
+    $archivo = $base_dir . $class . '.php';
 
     //Si el archivo existe lo incluye. Si no retorna un null.
-    if (file_exists($file)) {
-        include_once $file;
+    if (file_exists($archivo)) {
+        include_once $archivo;
     }else{
         return;
     }
