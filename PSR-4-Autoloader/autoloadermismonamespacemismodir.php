@@ -13,29 +13,30 @@
  */
 spl_autoload_register(function ($class) {
 
-    // project-specific namespace prefix
+    // Prefijo del namespace.
     $prefix = 'Foo\\Bar\\';
 
-    // base directory for the namespace prefix
+    // Directorio base del prefijo del namespace.
     $base_dir = __DIR__ . '/src/';
 
-    // does the class use the namespace prefix?
+    // Busca si la clase tiene el prefijo correcto.
     $len = strlen($prefix);
     if (strncmp($prefix, $class, $len) !== 0) {
-        // no, move to the next registered autoloader
+        // No lo tiene, entonces sigue buscando con el siguiente autoloader registrado.
         return;
     }
 
-    // get the relative class name
+    // Busca el nombre relativo de la clase.
     $relative_class = substr($class, $len);
 
-    // replace the namespace prefix with the base directory, replace namespace
-    // separators with directory separators in the relative class name, append
-    // with .php
+    /* Concatena el directorio base con el nombre relativo de la clase
+       (cambiando las \\ con la barra / para las rutas en el filesystem ) y le agrega
+       el .php. */
     $file = $base_dir . str_replace('\\', '/', $relative_class) . '.php';
 
-    // if the file exists, require it
+    // Si el archivo existe lo incluye.
     if (file_exists($file)) {
         require $file;
     }
 });
+?>
