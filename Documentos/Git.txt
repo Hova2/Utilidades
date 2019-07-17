@@ -1,7 +1,6 @@
 1 - Conectarse con un branch remoto:
 
-Si el nombre del branch al cual se intenta hacer un checkout no existe en el repositorio local y coincide exactamente con el nombre del branch remoto, git lo comenzara a trackear automaticamente. 
-Ej.:
+Si el nombre del branch al cual se intenta hacer un checkout no existe en el repositorio local y coincide exactamente con el nombre del branch remoto, git lo comenzara a trackear automaticamente. Ej.:
 
 $ git checkout serverfix
 Branch serverfix set up to track remote branch serverfix from origin.
