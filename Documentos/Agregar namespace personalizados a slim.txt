@@ -10,7 +10,7 @@ Para que slim pueda utilizar estos nuevos namespaces, hay que correr el comando:
 
 composer update
 
-Esto permite tener cualquier combinacion de directorios dentro del directorio "app/" siempre y cuando se respete esta estructura en el namespace de una clase. Ej:
+Esto permite tener cualquier combinacion de directorios dentro del directorio "app/" siempre y cuando se respete esta estructura en el namespace de una clase. Ej.:
 
 app/Controllers/SomeController.php
 
