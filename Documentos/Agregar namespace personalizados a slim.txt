@@ -1,0 +1,51 @@
+Para simplificar la carga de clases y que sea automatico el reconocimiento de los namespaces de las mismas, hay que agregar el siguiente ejemplo en el composer.json:
+
+"autoload": {
+    "psr-4": {
+        "App\\": "app/" 
+    }
+}
+
+Para que slim pueda utilizar estos nuevos namespaces, hay que correr el comando:
+
+composer update
+
+Esto permite tener cualquier combinacion de directorios dentro del directorio "app/" siempre y cuando se respete esta estructura en el namespace de una clase. Ej:
+
+app/Controllers/SomeController.php
+
+<?php
+
+namespace App\Controller;
+
+class SomeController
+{
+    // ...
+}
+
+------------------------------------
+
+app/Middleware/SomeMiddleware.php
+
+<?php
+
+namespace App\Middleware;
+
+class SomeMiddleware
+{
+    // ...
+}
+
+------------------------------------
+
+app/Foo/Bar/Baz.php
+
+<?php
+
+namespace App\Foo\Bar;
+
+class Baz
+{
+    // ...
+}
+
