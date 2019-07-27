@@ -1,0 +1,11 @@
+1 - Bajar el composer:
+
+curl -s https://getcomposer.org/installer | /opt/lampp/bin/php
+
+2 - Crear un link simbolico para que el php del xampp sea global:
+
+ln -s /opt/lampp/bin/php /usr/local/bin/php
+
+3 - Mover el archivo para que el composer sea global:
+
+mv composer.phar /usr/local/bin/composer
