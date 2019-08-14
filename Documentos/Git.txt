@@ -5,3 +5,20 @@ Si el nombre del branch al cual se intenta hacer un checkout no existe en el rep
 $ git checkout serverfix
 Branch serverfix set up to track remote branch serverfix from origin.
 Switched to a new branch 'serverfix'
+
+2 - Crear un nuevo branch
+Antes de crear un nuevo branch. Hay que pararse en el origen que uno quiere clonar.
+
+$ git checkout "nombre del branch"
+
+Luego hay que traer todas las ultimas actualizaciones del servidor.
+
+$ git pull
+
+Depues hay que crear el nuevo branch localmente en la PC.
+
+$ git checkout -b "nombre del branch"
+
+Depues hay que subir el branch creado localmente al repositorio remoto.
+
+$ git push origin "nombre del branch"
