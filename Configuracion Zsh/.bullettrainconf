@@ -1,0 +1,8 @@
+BULLETTRAIN_PROMPT_ORDER=(
+  context
+  dir
+  time
+  git
+)
+
+BULLETTRAIN_PROMPT_CHAR='🚀'

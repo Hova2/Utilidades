@@ -1,0 +1,22 @@
+1 - Bajarse la ultima version del binario:
+
+wget https://services.gradle.org/distributions/gradle-5.6.3-bin.zip
+
+2 - Descomprimir el archivo:
+
+sudo unzip -d /opt/gradle gradle-5.6.3-bin.zip
+
+3 - Crear las variables de entorno:
+
+sudo vim /etc/profile.d/gradle.sh
+
+export GRADLE_HOME=/opt/gradle/gradle-5.6.3
+export PATH=${GRADLE_HOME}/bin:${PATH}
+
+4 - Poner permisos de ejecucion al script
+
+sudo chmod +x /etc/profile.d/gradle.sh
+
+5 - Cargar las nuevas variables de entorno:
+
+source /etc/profile.d/gradle.sh
