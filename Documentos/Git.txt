@@ -22,3 +22,7 @@ $ git checkout -b "nombre del branch"
 Depues hay que subir el branch creado localmente al repositorio remoto.
 
 $ git push origin "nombre del branch"
+
+3 - Almacenar las credenciales automaticamente:
+
+git config --global credential.helper store
