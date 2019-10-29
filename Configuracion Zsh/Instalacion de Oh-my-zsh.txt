@@ -1,0 +1,15 @@
+1 - Colocar zsh a como la consola por defecto:
+
+sudo usermod -s /usr/bin/zsh $(whoami)
+
+2 - Instalar las fuentes Powerline:
+
+sudo apt -y install powerline fonts-powerline
+
+3 - Instalar el plugin Syntax Highlighting:
+
+sudo apt -y install zsh-syntax-highlighting
+
+4 - Instalar Oh-my-zsh:
+
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"

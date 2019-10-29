@@ -1,0 +1,7 @@
+1 - Instalar las fuentes ttf-ancient-fonts:
+
+sudo apt -y install ttf-ancient-fonts 
+
+2 - Instalar Bullet-train:
+
+wget -O $ZSH_CUSTOM/themes/bullet-train.zsh-theme http://raw.github.com/caiogondim/bullet-train-oh-my-zsh-theme/master/bullet-train.zsh-theme
