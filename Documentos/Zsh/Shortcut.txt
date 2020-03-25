@@ -1,0 +1,20 @@
+1 - git pull - Actualiza el repositorio local con el contenido del repositorio remoto:
+
+gl
+
+2 - git commit -a -m - Para hacer un comit con su comentario:
+
+gcam "Comentario"
+
+3 - git push - Actualiza el repositorio remoto con el contenido del repositorio local:
+
+gp
+
+4 - git status - Muestra el estado del repositorio local:
+
+gst
+
+5 - git add --all - Agrega todos los archivos nuevos creados en el repositorio local (Incluidos los sub directorios)
+
+gaa
+

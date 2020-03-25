@@ -1,0 +1,117 @@
+1 - Abre la configuracion:
+
+'Ctrl' + ','
+
+2 - Para subir mis configuraciones de vs code con settings sync:
+
+Shift + Alt + U
+
+3 - Para bajar mis configuraciones de vs code con settings sync:
+
+Shift + Alt + D
+
+4 - Para ver los shortcut del teclado:
+
+Ctrl + K -> Ctrl + S
+
+5 - Cambiar el workspace:
+
+Ctrl + R
+
+6 - Enciende/Apaga el word wrap
+
+Alt + Z
+
+7 - Ir a la linea:
+
+Ctrl + G
+
+8 - Ir al archivo:
+
+Ctrl + P
+
+9 - Ir al siguiente error o warning:
+
+F8
+
+10 - Volver al anterior error o warning:
+
+Shift + F8
+
+11 - Cambiar el Tap actual:
+
+Ctrl + Tab
+
+12 - Copiar el cursor en varias lineas:
+
+Shift + Alt + I
+
+13 - Seleccionar toda la linea:
+
+Ctrl + L
+
+14 - Seleccionar todas las ocurrencias de un elemento:
+
+Ctrl + Shift + L
+
+15 - Seleccionar todas las ocurrencias de la palabra seleccionada:
+
+Ctrl + F2
+
+16 - Devuelve los parametrls de una funcion:
+
+Ctrl + Shift + SPACE
+
+17 - Formatea todo el documento:
+
+Shift + Alt + F
+
+18 - Formatea lo que se selecciono:
+
+Ctrl + K -> Ctrl + F
+
+19 - Ir a la definicion del elemento:
+
+F12
+
+20 - Muestra la definicion del elemento en un modal:
+
+Alt + F12
+
+21 - Renombra todo el elemento seleccionado:
+
+F2
+
+22 - Borrar los espacion en blanco la final de la linea:
+
+Ctrl + K -> Ctrl + X
+
+23 - Abre el archivo actual en el explorador:
+
+Ctrl + K -> R
+
+24 - Reemplaza la ocurrencia en todos los archivos:
+
+Ctrl + Shift + H
+
+25 - Abre el markdown en una vista previa al costado:
+
+Ctrl + K -> V
+
+26 - Entrar en el modo zen
+
+Ctrl + K -> Z
+
+27 - Para resetear la configuracion sincronizada
+
+Crtl + Shift + P
+
+Buscar la opcion: Sync : Reset Extension Settings"
+
+28 - Abre el ultimo archivo cerrado:
+
+Crtl + Shift + T
+
+29 - Borra la linea entera:
+
+Crtl + X
