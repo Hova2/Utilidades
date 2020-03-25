@@ -115,3 +115,7 @@ Crtl + Shift + T
 29 - Borra la linea entera:
 
 Crtl + X
+
+30 - Abre una nueva terminal integrada:
+
+Crtl + Shift + Ñ
