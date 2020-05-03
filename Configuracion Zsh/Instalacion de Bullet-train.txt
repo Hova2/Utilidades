@@ -1,6 +1,6 @@
 1 - Instalar las fuentes ttf-ancient-fonts:
 
-sudo apt -y install ttf-ancient-fonts 
+sudo apt -y install ttf-ancient-fonts
 
 2 - Instalar Bullet-train:
 
