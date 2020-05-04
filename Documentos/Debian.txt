@@ -1,4 +1,4 @@
 1 - Los paquetes principales se instalan con el usuario root, corriendo el siguiente comando:
 
-apt -y install sudo nautilus p7zip p7zip-full rar unrar gparted git geany zsh galculator gimp gpicview xarchiver libreoffice-writer libreoffice-dmaths libreoffice-calc libreoffice-impress curl wget software-properties-common gcc g++ make krdc qbittorrent fonts-firacode mlocate ocrfeeder libreoffice-gnome gvfs-backends cifs-utils dnsutils telnet unzip zip
+apt -y install sudo nautilus p7zip p7zip-full rar unrar gparted git geany zsh galculator gimp gpicview xarchiver libreoffice-writer libreoffice-dmaths libreoffice-calc libreoffice-impress curl wget software-properties-common gcc g++ make krdc qbittorrent fonts-firacode mlocate ocrfeeder libreoffice-gnome gvfs-backends cifs-utils dnsutils telnet unzip zip okular
 
