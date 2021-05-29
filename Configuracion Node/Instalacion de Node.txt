@@ -1,6 +1,6 @@
 1 - Agregar las source de apt para poder bajar el paquete de node:
 
-curl -sL https://deb.nodesource.com/setup_13.x | sudo bash -
+curl -sL https://deb.nodesource.com/setup_12.x | sudo bash -
 
 NOTA: Siempre hay que verificar la ultima version de node para utilizar la correcta en el script de arriba.
 

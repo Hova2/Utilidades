@@ -1,10 +1,10 @@
 1 - Descomprimir el jdk:
 
-sudo tar -zxvf jdk-8u221-linux-x64.tar.gz -C /usr/lib/jvm/
+sudo tar -zxvf jdk-8u251-linux-x64.tar.gz -C /usr/lib/jvm/
 
 2 - Agregar la version como alternativa para java:
 
-sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk1.8.0_221/bin/java 3
+sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk1.8.0_251/bin/java 3
 
 3 - Configurarlo como el java default para el sistema:
 
@@ -12,8 +12,8 @@ sudo update-alternatives --config java
 
 4 - Crear las siguientes variables de entorno:
 
-export PATH=$PATH:/usr/lib/jvm/jdk1.8.0_221/bin
-export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_221/
-export JRE_HOME=/usr/lib/jvm/jdk1.8.0_221/jre/
-export J2SDKDIR=/usr/lib/jvm/jdk1.8.0_221/
-export J2REDIR=/usr/lib/jvm/jdk1.8.0_221/jre/
+export PATH=$PATH:/usr/lib/jvm/jdk1.8.0_251/bin
+export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_251/
+export JRE_HOME=/usr/lib/jvm/jdk1.8.0_251/jre/
+export J2SDKDIR=/usr/lib/jvm/jdk1.8.0_251/
+export J2REDIR=/usr/lib/jvm/jdk1.8.0_251/jre/
