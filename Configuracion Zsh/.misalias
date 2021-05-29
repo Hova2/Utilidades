@@ -1,39 +1,11 @@
 #Comandos
 alias vi='vim'
-alias l='ls -lah --color=auto'
-alias grep='egrep --color=auto'
+alias l='ls -laht --color=auto'
+alias grep='egrep -i --color=auto'
 alias p='ping'
-alias s='ssh -l ignacio'
-alias sr='ssh -l root'
-alias update='apt update'
-alias upgrade='apt upgrade'
-alias install='apt install'
-alias search='apt search'
+alias update='sudo apt update'
+alias upgrade='sudo apt upgrade'
+alias install='sudo apt install'
+alias search='sudo apt search'
+alias purge='sudo apt purge --auto-remove'
 alias t='telnet'
-
-#Routers
-alias routerbackbone='s 10.8.4.3'
-
-#Servidores
-alias relay1='s relay1'
-alias racing1='s racing1'
-alias racing2='s racing2'
-alias sso='s sso'
-
-#Java
-export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_221/
-export JRE_HOME=/usr/lib/jvm/jdk1.8.0_221/jre/
-export J2SDKDIR=/usr/lib/jvm/jdk1.8.0_221/
-export J2REDIR=/usr/lib/jvm/jdk1.8.0_221/jre/
-
-#Android
-export ANDROID_SDK_ROOT="/home/juani/Programas/AndroidSDK"
-
-#Gradle
-export GRADLE_HOME=/opt/gradle/gradle-5.6.3
-
-#PATH
-export PATH=$PATH:/usr/lib/jvm/jdk1.8.0_221/bin
-export PATH=$PATH:$ANDROID_SDK_ROOT/tools
-export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
-export PATH=$PATH:${GRADLE_HOME}/bin
