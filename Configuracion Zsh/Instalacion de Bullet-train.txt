@@ -1,6 +1,12 @@
-1 - Instalar las fuentes ttf-ancient-fonts:
+1 - Instalar las fuentes:
+
+ttf-ancient-fonts (For Linux)
 
 sudo apt -y install ttf-ancient-fonts
+
+Source Code Pro for Powerline (For windows terminal)
+
+https://github.com/powerline/fonts/blob/master/SourceCodePro/Source%20Code%20Pro%20for%20Powerline.otf
 
 2 - Instalar Bullet-train:
 
