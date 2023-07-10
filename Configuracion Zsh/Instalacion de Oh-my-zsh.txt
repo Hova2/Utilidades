@@ -8,7 +8,13 @@ sudo apt -y install powerline fonts-powerline
 
 3 - Instalar el plugin Syntax Highlighting:
 
+For linux:
+
 sudo apt -y install zsh-syntax-highlighting
+
+For Mac:
+
+brew install zsh-syntax-highlighting
 
 4 - Instalar Oh-my-zsh:
 
