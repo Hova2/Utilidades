@@ -1,0 +1,8 @@
+1 - Add sudo user
+
+usermod -aG sudo username
+
+2 - Add user to sudoers
+
+    a. visudo
+    b. username  ALL=(ALL) NOPASSWD:ALL
